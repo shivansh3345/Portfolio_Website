@@ -1,0 +1,65 @@
+body{
+    background-color: black;
+}
+
+hr{
+    background-color:white;
+    border-style: inset;
+    border-width: 1 px;
+    border-color:black;
+  }
+
+#profile{
+    position: static;
+    overflow: hidden;
+    height: 90vh;
+    max-height: 1080px;
+    padding-right: 40px;
+    padding-left: 40px;
+    
+}
+
+.padding{
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.navbar-nav{
+    margin-left: auto ;
+}
+
+.profile-text{
+    text-align: center;
+    margin: auto;
+    padding: auto;
+    color: white;
+}
+
+.profile-img{
+    height: 70vh;
+    float: right;
+    margin: auto;
+}
+
+.text{
+    color: white;
+    text-align: center;
+    margin: 50px;
+    font-family:Helvetica, Arial;
+}
+
+.card-image{
+    fill: indigo;
+    width: 200px;
+    padding: 10px;
+    margin: 8px;
+}
+
+.inc-size:hover{
+    transform: scale(1.5);
+}
+
+.inc-size2:hover{
+    transform: scale(1.2);
+    z-index: 100;
+}
