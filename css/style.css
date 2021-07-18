@@ -29,7 +29,7 @@ hr{
 }
 
 .profile-text{
-    text-align: center;
+    text-align: left;
     margin: auto;
     padding: auto;
     color: white;
@@ -45,7 +45,7 @@ hr{
     color: white;
     text-align: center;
     margin: 50px;
-    font-family:Helvetica, Arial;
+    font-family: 'Manrope', sans-serif;
 }
 
 .card-image{
@@ -56,10 +56,17 @@ hr{
 }
 
 .inc-size:hover{
-    transform: scale(1.5);
+    transform: scale(1.8);
+    z-index: 100;
+
 }
 
 .inc-size2:hover{
     transform: scale(1.2);
     z-index: 100;
+}
+
+.footer-icons{
+    margin: 5px;
+    padding: 2px;
 }
